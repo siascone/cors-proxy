@@ -29,4 +29,3 @@ app.listen(5001, () => {
     console.log("Listening on PORT: 5001")
 })
 
-// ?url='http://api.weatherapi.com/v1/current.json?q=Boulder&aqi=no'
