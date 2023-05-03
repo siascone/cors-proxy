@@ -17,7 +17,6 @@ app.get("/", (req, res) => {
         let q = req.query.q;
         let aqi = req.query.aqi
         let fetchUrl = `${url}&q=${q}&${aqi}`;
-        console.log(fetchUrl)
         axios.get(fetchUrl)
             .then(resBody => res.send(resBody.data));
     } else {
