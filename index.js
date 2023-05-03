@@ -29,3 +29,4 @@ app.listen(5001, () => {
     console.log("Listening on PORT: 5001")
 })
 
+// test query with /?q=boulder&aqi=no
